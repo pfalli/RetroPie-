@@ -47,7 +47,7 @@ Here a nice step by step instruction to git install RetroPie on the SD Card: htt
 
 ## Step 3: Transfer ROMs
 
-### Option A: USB Stick Method
+### Option A: USB Stick Method (***it didn'twork***) i suggest option B
 
 1. **Prepare the USB Stick**
    - Format a USB stick to FAT32 or exFAT.
@@ -70,6 +70,16 @@ Here a nice step by step instruction to git install RetroPie on the SD Card: htt
 
 5. **Refresh the Game List**
    - Press `F4` to restart EmulationStation or go to **Start > Quit > Restart EmulationStation** to see your new games.
+  
+### Option B: Connection with SSH
+
+1.Go on Terminal of your laptop and write: ping "IP address of the rasperrypi"
+
+2.Right-click your “roms” folder and choose “copy as path”
+
+3.Copy over your ROMs with the command:   scp -r <roms folder path>\\* <username>@<pi ip address>:~/RetroPie/roms/
+
+***add the game exactly in the right Console folder (ex: Mario64 inside n64, GodofWar inside playstation1)
 
 ---
 
