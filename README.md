@@ -29,6 +29,8 @@ This guide provides step-by-step instructions to install and configure RetroPie 
 3. **Insert the SD Card into the Raspberry Pi**  
    Once the image has been successfully flashed, eject the SD card and insert it into your Raspberry Pi.
 
+Here a nice step by step instruction to git install RetroPie on the SD Card: https://github.com/danielfreer/raspberrypi5-retropie-setup/tree/main?tab=readme-ov-file
+
 ---
 
 ## Step 2: Boot the Raspberry Pi
