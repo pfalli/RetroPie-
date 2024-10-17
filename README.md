@@ -77,7 +77,7 @@ Here a nice step by step instruction to git install RetroPie on the SD Card: htt
 
 2.Right-click your “roms” folder and choose “copy as path”
 
-3.Copy over your ROMs with the command:   scp -r <roms folder path>\\* <username>@<pi ip address>:~/RetroPie/roms/
+3.Copy over your ROMs with the command:   scp -r <roms folder path>\\* <username>@<pi ip address>:~/RetroPie/roms/(check on the terminal of the rasperry the right folder where to put the games, it can maybe be different from other tutorial, it depends how the setup went)
 
 ***add the game exactly in the right Console folder (ex: Mario64 inside n64, GodofWar inside playstation1)
 
